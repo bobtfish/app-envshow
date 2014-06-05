@@ -1,8 +1,9 @@
 use Mojolicious::Lite;
+use Data::Dumper;
 
 get '/' => sub {
     my $self = shift;
-    $self->render(text => "Hi Scale summit");
+    $self->render(text => Dumper(\%ENV));
 };
 
 app->start;

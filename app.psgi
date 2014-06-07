@@ -7,7 +7,7 @@ get '/' => sub {
 '<html>
 <head>
 <style type="text/css">
-    body {background-color:white}
+    body {background-color:blue}
 </style>
 </head>
 <body>
